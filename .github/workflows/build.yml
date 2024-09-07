@@ -1,4 +1,9 @@
 name: Build DevBuild
+
+permissions:
+  contents: write
+  packages: write
+
 on:
     push:
         branches:
