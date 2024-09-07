@@ -86,7 +86,7 @@ async function generateDebugInfoMessage() {
 
     const info = {
         "Vencord+":
-            `v${VERSION} • [${gitHash}](<https://github.com/RobinRMC/VencordPlus/commit/${gitHash}>)` +
+            `v${VERSION} • [${gitHash}](<https://github.com/0xJWLabs/VencordPlus/commit/${gitHash}>)` +
             `${SettingsPlugin.additionalInfo} - ${Intl.DateTimeFormat("en-GB", { dateStyle: "medium" }).format(BUILD_TIMESTAMP)}`,
         Client: `${RELEASE_CHANNEL} ~ ${client}`,
         Platform: window.navigator.platform
@@ -207,10 +207,10 @@ export default definePlugin({
                     body: <div>
                         <Forms.FormText>You are using an externally updated Vencord version, which we do not provide support for!</Forms.FormText>
                         <Forms.FormText className={Margins.top8}>
-                            If you are experiencing issues, please contact your <Link href="https://github.com/RobinRMC/VencordPlus">package maintainer</Link> for support instead.
+                            If you are experiencing issues, please contact your <Link href="https://github.com/0xJWLabs/VencordPlus">package maintainer</Link> for support instead.
                         </Forms.FormText>
                     </div>,
-                    onCloseCallback: () => {}
+                    onCloseCallback: () => { }
                 });
             }
 
@@ -221,7 +221,7 @@ export default definePlugin({
                         <Forms.FormText>You are using a custom build of Vencord, which we do not provide support for!</Forms.FormText>
 
                         <Forms.FormText className={Margins.top8}>
-                            If you are experiencing issues, please contact your <Link href="https://github.com/RobinRMC/VencordPlus">package maintainer</Link> for support instead.
+                            If you are experiencing issues, please contact your <Link href="https://github.com/0xJWLabs/VencordPlus">package maintainer</Link> for support instead.
                         </Forms.FormText>
 
                         <Text variant="text-md/bold" className={Margins.top8}>You will be banned from receiving support if you ignore this rule.</Text>

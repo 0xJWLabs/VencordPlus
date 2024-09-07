@@ -30,6 +30,7 @@ export const themes = {
     MaterialCandy: "https://raw.githubusercontent.com/millsp/material-candy/master/material-candy.json",
 
     // More from Shiki repo
+    CatppuccinMocha: "https://raw.githubusercontent.com/shikijs/textmate-grammars-themes/main/packages/tm-themes/themes/catppuccin-mocha.json",
     DraculaSoft: shikiRepoTheme("dracula-soft"),
     Dracula: shikiRepoTheme("dracula"),
     GithubDarkDimmed: shikiRepoTheme("github-dark-dimmed"),

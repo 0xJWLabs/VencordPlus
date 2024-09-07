@@ -51,7 +51,7 @@ body:
       options:
         - label: I have read the above and made sure my plugin request is clear and concise.
           required: true
-        - label: "I have checked the [existing plugins in Vencord](https://vencord.dev/plugins) and the [existing plugins in Vencord+](https://github.com/RobinRMC/VencordPlus/tree/main/src/plusplugins) and made sure the plugin I want to request hasn't already been added."
+        - label: "I have checked the [existing plugins in Vencord](https://vencord.dev/plugins) and the [existing plugins in Vencord+](https://github.com/0xJWLabs/VencordPlus/tree/main/src/plusplugins) and made sure the plugin I want to request hasn't already been added."
           required: true
-        - label: "I have searched the [existing plugin requests](https://github.com/RobinRMC/VencordPlus/issues?q=is%3Aissue+label%3AAddition) and made sure the plugin I want to request hasn't already been requested."
+        - label: "I have searched the [existing plugin requests](https://github.com/0xJWLabs/VencordPlus/issues?q=is%3Aissue+label%3AAddition) and made sure the plugin I want to request hasn't already been requested."
           required: true

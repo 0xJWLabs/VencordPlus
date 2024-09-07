@@ -22,14 +22,12 @@ A fork of the Discord client mod called Vencord that adds unapproved plugins.
 
 ## Additional (unapproved) plugins [Vencord+]
 
-[Click here to see a list of the unapproved plugins Vencord+ makes available to you.](https://github.com/RobinRMC/VencordPlus/tree/main/src/plusplugins)
+[Click here to see a list of the unapproved plugins Vencord+ makes available to you.](https://github.com/0xJWLabs/VencordPlus/tree/main/src/plusplugins)
 
 
 ## Installing / Uninstalling
 
-[![Download and run the installer](https://img.shields.io/github/v/release/RobinRMC/VencordPlusInstaller?label=Download%20Vencord%2B%20Installer&style=for-the-badge)](https://github.com/RobinRMC/VencordPlusInstaller#vencord-installer)
-
-[![Download and install Vesktop+](https://img.shields.io/github/v/release/RobinRMC/VesktopPlus?label=Download%20Vesktop%2B&style=for-the-badge)](https://github.com/RobinRMC/VesktopPlus#installing-vesktop)
+[![Download and run the installer](https://img.shields.io/github/v/release/0xJWLabs/VencordPlusInstaller?label=Download%20Vencord%2B%20Installer&style=for-the-badge)](https://github.com/0xJWLabs/VencordPlusInstaller#vencord-installer)
 
 ## Join the support/community server of Vencord
 
@@ -47,11 +45,11 @@ Note: Do not request support in the Discord server of Vencord for anything regar
 
 ## Star History
 
-<a href="https://star-history.com/#RobinRMC/VencordPlus&Timeline">
+<a href="https://star-history.com/#0xJWLabs/VencordPlus&Timeline">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=RobinRMC/VencordPlus&type=Timeline&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=RobinRMC/VencordPlus&type=Timeline" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=RobinRMC/VencordPlus&type=Timeline" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=0xJWLabs/VencordPlus&type=Timeline&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=0xJWLabs/VencordPlus&type=Timeline" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=0xJWLabs/VencordPlus&type=Timeline" />
   </picture>
 </a>
 

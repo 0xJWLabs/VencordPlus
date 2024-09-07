@@ -25,7 +25,7 @@ import { Readable } from "stream";
 import { finished } from "stream/promises";
 import { fileURLToPath } from "url";
 
-const BASE_URL = "https://github.com/RobinRMC/VencordPlusInstaller/releases/latest/download/";
+const BASE_URL = "https://github.com/0xJWLabs/VencordPlusInstaller/releases/latest/download/";
 const INSTALLER_PATH_DARWIN = "VencordInstaller.app/Contents/MacOS/VencordInstaller";
 
 const BASE_DIR = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -62,7 +62,7 @@ async function ensureBinary() {
 
     const res = await fetch(BASE_URL + filename, {
         headers: {
-            "User-Agent": "VencordPlus (https://github.com/RobinRMC/VencordPlus)",
+            "User-Agent": "VencordPlus (https://github.com/0xJWLabs/VencordPlus)",
             "If-None-Match": etag
         }
     });
